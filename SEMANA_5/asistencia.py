@@ -10,12 +10,8 @@ class Asistencia():
       num_clase = int(input("Numero de clases: ")) 
       num_faltas = int(input("Numero de faltas: "))
       num_retraso = int(input("Numero de retraso:"))
-      #if num_retraso >= 3:
-      # uno = 1
-      #else:
-       # cero = 0
-
-      resta = num_clase - num_faltas
+      mod = num_retraso // 3
+      resta = num_clase - num_faltas - mod
       multi = 100/num_clase
       porcentaje = resta*multi
       print("Porcentaje: ", porcentaje)
