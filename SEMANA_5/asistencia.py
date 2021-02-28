@@ -24,3 +24,5 @@ class Asistencia():
 
 hi = Asistencia()
 hi.bucle()
+
+#dice que varible local en la linea 7,8,9 pero no se pero si funciona
